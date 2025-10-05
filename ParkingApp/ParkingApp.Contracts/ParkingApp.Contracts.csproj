@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ParkingApp.Data\ParkingApp.Data.csproj" />
+  </ItemGroup>
+
 </Project>
