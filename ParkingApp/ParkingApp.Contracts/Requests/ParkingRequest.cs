@@ -5,5 +5,5 @@ namespace ParkingApp.Contracts.Requests;
 public class ParkingRequest
 {
     public required string RegistrationNumber { get; set; }
-    public required VehicleType Type { get; set; }
+    public required VehicleType VehicleType { get; set; }
 }

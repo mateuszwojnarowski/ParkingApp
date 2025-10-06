@@ -1,8 +1,8 @@
 ﻿namespace ParkingApp.Contracts.Responses;
-public class ExistResponse
+public class ExitResponse
 {
-    public string RegistrationNumber { get; set; }
+    public string RegistrationNumber { get; set; } = null!;
     public DateTime ParkedAt { get; set; }
     public DateTime ExitedAt { get; set; }
-    public decimal ParkingFee { get; set; }
+    public double ParkingFee { get; set; }
 }
